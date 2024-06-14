@@ -39,11 +39,6 @@ button.addEventListener("click", (e) => {
                 
 
             })
-
-            box.addEventListener("mouseout", (e) => {
-                console.log("Mouse event fired");
-                box.style.backgroundColor = "";
-            })
             
         }
     }
