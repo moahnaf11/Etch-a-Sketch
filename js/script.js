@@ -35,7 +35,7 @@ button.addEventListener("click", (e) => {
                 }   else {
                     opacity = 10;
                 }
-                box.style.background = `rgb(${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)} ${Math.floor(Math.random() * 256)} / ${opacity}%)`;
+                box.style.background = `rgb( 0 0 0 / ${opacity}%)`;
                 
 
             })
