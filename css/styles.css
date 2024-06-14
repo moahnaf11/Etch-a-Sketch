@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.small-box {
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+
+button {
+    font-size: 22px;
+    font-weight: 600;
+    color: lightskyblue;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+    padding: 20px;
+
+}
